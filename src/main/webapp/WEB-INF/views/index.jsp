@@ -9,5 +9,6 @@
 <body>
 	<h1>Index Page</h1>
 	<p>this is sample page for Spring Boot!</p>
+	<p>${msg}</p>
 </body>
 </html>
