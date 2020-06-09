@@ -18,7 +18,7 @@ set ${var}=${value}
 
 ユーザー作成
 ```
-CREATE USER 
+CREATE USER ${user_name} IDENTIFY BY ${password}
 ```
 
 権限設定の例
