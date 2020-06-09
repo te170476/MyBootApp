@@ -16,7 +16,7 @@
 	</form>
 	<hr>
 	<table>
-		<tr th:each="book : ${books}"　th:object="${book}">
+		<tr th:each="book : ${books}" th:object="${book}">
 			<td th:text="*{id}"       ></td>
 			<td th:text="*{title}"    ></td>
 			<td th:text="*{writter}"  ></td>
@@ -25,7 +25,7 @@
 			<td>
 				<form th:action="@{/books/edit}" method="post">
 					<input type="submit" name="form" value="編集">
-					<input　type="hidden" name="id"   th:value="*{id}">
+					<input type="hidden" name="id"   th:value="*{id}">
 				</form>
 			</td>
 			<td>
